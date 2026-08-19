@@ -1,0 +1,70 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+.venv_xgb/
+venv/
+env/
+
+# Raw facial images
+*.jpg
+*.jpeg
+*.jfif
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# Private/local data
+data/raw/
+data/private/
+data/images/
+
+# Large intermediate files
+*.npy
+*.npz
+*.pickle
+*.pkl
+*.joblib
+
+# Temporary files
+*.tmp
+*.log
+
+# Thesis files
+*.docx
+*.pdf
+
+
+# Local archive created during repository cleanup
+_archive_not_for_github/
+
+# Manual review / private patient-level files
+*review_table*.csv
+*answer_key*.csv
+*google_form*.csv
+*patient*.csv
+*manifest*.csv
+
+# Generated outputs
+outputs/
+output/
+plots/
+tables/
+figures/
+models/
+qc/
+aligned/
+landmarks/
+eyebrow_roi/
+eyebrow_mask*/
+fold_image_review/
+majority_vote_analysis/
+
+.env
